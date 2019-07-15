@@ -16,6 +16,7 @@ html {
   font-size: 1em;
   line-height: 1.4;
   min-width: 300px;
+  box
 }
 
 /*
@@ -158,6 +159,15 @@ nav {
 
 /************* Aside 
 *********************************/
+
+/************* FAQ 
+*********************************/
+.faq .faq-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 /************* Footer 
 *********************************/
