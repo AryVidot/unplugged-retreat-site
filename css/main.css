@@ -16,7 +16,7 @@ html {
   font-size: 1em;
   line-height: 1.4;
   min-width: 300px;
-  box
+  box-sizing: border-box;
 }
 
 /*
@@ -121,13 +121,16 @@ nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
+
 .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
+
 /************* Main 
 *********************************/
 .content,
@@ -167,6 +170,19 @@ nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+/************* About 
+*********************************/
+.map-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+figure,
+iframe {
+  size: 100%;
 }
 
 /************* Footer 
