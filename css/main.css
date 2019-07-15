@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  min-width: 300px;
 }
 
 /*
@@ -97,6 +98,40 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/************* Base Header & Footer *************/
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-flow: row wrap; */
+}
+
+/************* Typography 
+*********************************/
+
+/************* Header 
+*********************************/
+
+/************* Main 
+*********************************/
+
+/************* Sections 
+*********************************/
+.content,
+.features,
+.reviews,
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/************* Aside 
+*********************************/
 
 /* ==========================================================================
    Helper classes
@@ -263,4 +298,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
