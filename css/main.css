@@ -106,7 +106,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-flow: row wrap; */
+  flex-flow: row wrap;
 }
 
 /************* Typography 
@@ -114,24 +114,81 @@ footer {
 
 /************* Header 
 *********************************/
-
+header,
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 /************* Main 
-*********************************/
-
-/************* Sections 
 *********************************/
 .content,
 .features,
 .reviews,
-.footer-content {
+.footer-content,
+.reviews-content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/************* Sections 
+*********************************/
+.reviews-content > article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-flow: row wrap; */
+}
+
 /************* Aside 
 *********************************/
+
+/************* Footer 
+*********************************/
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-flow: row wrap; */
+}
+
+.contact,
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* flex-flow: row wrap; */
+}
+
+.social-icons > p {
+  display: inline-block;
+}
+
+/************* Copyright 
+*********************************/
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
 
 /* ==========================================================================
    Helper classes
