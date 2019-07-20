@@ -40,85 +40,37 @@
     </header>
 
     <main>
-      <section class="hero-image">
-        <div class="hero-container">
-          <div class="hero-area">
-            <h1 class="headline">Retreat from the desk, return refreshed.</h1>
-          </div>
+      <section class="hero-area">
+        <div class="content-wrapper">
+          <h1>Retreat from the desk, return refreshed.</h1>
         </div>
-      </section>
-
-      <section class="content">
-        <div>
-          <h2>Want to join the next retreat?</h2>
-          <p>
-            Find out when we are holding our next retreat and how your company
-            or team can sign up!
-          </p>
-        </div>
-        <form action="#.php" class="form">
-          <h2>Find out more</h2>
-          <input type="email" name="name@email.com" />
-          <input type="button" value="Download Itinerary" />
-        </form>
-      </section>
-      <section class="about">
-        <!--Empty section-->
-        <!-- <div class="title-about">
-          <h3>
-            Have the work week you always dreamed of — without the bad wifi.
-          </h3>
-        </div> -->
-        <!-- <ul class="">
-          <li>
-            <a href="#" target="_blank"><img src="#" alt="tent-logo"/></a>
-            <p class="features-item-desc">
-              Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.
-            </p>
-          </li>
-          <li>
-            <a href="#" target="_blank"><img src="#" alt="bed-logo"/></a>
-            <p class="features-item-desc">
-              2 private rooms with ensuite bathrooms, 2 group meeting rooms, and
-              4 breakout rooms.
-            </p>
-          </li>
-          <li>
-            <a href="#" target="_blank"><img src="#" alt="utensils-logo"/></a>
-            <p class="features-item-desc">
-              Private chef team providing on demand meals - just like your team
-              kitchen.
-            </p>
-          </li>
-          <li>
-            <a href="#" target="_blank"><img src="#" alt="shoe-print-logo"/></a>
-            <p class="features-item-desc">
-              5 outdoor obstacle courses, including private beach ½ mile from
-              bungalow.
-            </p>
-          </li>
-          <li>
-            <a href="#" target="_blank"><img src="#" alt="smailey-logo"/></a>
-            <p class="features-item-desc">
-              Retreat facilitator to manage your day to day activities so you
-              all get a chance to reset.
-            </p>
-          </li>
-          <li>
-            <a href="#" target="_blank"><img src="#" alt="wifi-logo"/></a>
-            <p class="features-item-desc">Dedicated computer room for times that you must wifi.</p>
-          </li>
-        </ul> -->
       </section>
 
       <aside>
-        <section class="features">
-          <div class="features-content">
-            <div class="title-about">
-              <h3>
-                Have the work week you always dreamed of — without the bad wifi.
-              </h3>
-            </div>
+        <div class="content-wrapper">
+          <div class="form-description">
+            <h2>Want to join the next retreat?</h2>
+            <p>
+              Find out when we are holding our next retreat and how your company
+              or team can sign up!
+            </p>
+          </div>
+          <div class="form">
+            <form action="#.php" class="form">
+              <h2>Find out more</h2>
+              <input type="email" name="name@email.com" />
+              <input type="button" value="Download Itinerary" />
+            </form>
+          </div>
+        </div>
+      </aside>
+
+      <section class="features">
+        <div class="content-wrapper">
+          <h2>
+            Have the work week you always dreamed of — without the bad wifi.
+          </h2>
+          <div class="features-items">
             <article>
               <p class="fontawesome-icon"></p>
               <p class="features-item-desc">
@@ -155,21 +107,21 @@
               </p>
             </article>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section class="reviews">
-          <div class="reviews-content">
-            <div class="reviews-pics">
-              <h3>Be a better team in 5 days, like these.</h3>
-              <img
-                src="../img/team.jpg"
-                alt="team photo"
-                class="team"
-                style="background:cover; background-repeat: no-repeat; width: 100%"
-              />
-            </div>
-            <div class="reviews-testimonial">
-              <h4>LaCrue Bottling Co. <br /><span>October 2017</span></h4>
+      <section class="reviews">
+        <div class="content-wrapper">
+          <h2>Be a better team in 5 days, like these.</h2>
+          <!-- <img
+              src="../img/team.jpg"
+              alt="team photo"
+              class="team"
+              style="background:cover; background-repeat: no-repeat; width: 100%"
+            /> -->
+          <article>
+            <div>
+              <h3>LaCrue Bottling Co. <br /><span>October 2017</span></h3>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Aliquid quia itaque harum quas qui voluptas voluptate asperiores
@@ -178,22 +130,23 @@
                 ad!
               </p>
             </div>
-          </div>
-        </section>
-      </aside>
+          </article>
+        </div>
+      </section>
     </main>
+    <!-- main wrapper -->
 
     <footer>
       <div class="content-wrapper">
         <div class="footer-content">
-          <div class="contact">
+          <address class="contact">
             <h4>Contact</h4>
-            <address>555-555-5556</address>
+            <p>555-555-5556</p>
             <a href="mailto: hello@unplugged.com">hello@unplugged.com</a>
-          </div>
+          </address>
           <div class="social">
+            <h4>Social</h4>
             <div class="social-icons">
-              <h4>Social</h4>
               <p>
                 <a href="#" alt="facebook logo" target="_blank"></a>facebook
               </p>
@@ -204,11 +157,12 @@
             </div>
           </div>
         </div>
+        <!-- Footer Content ends -->
+      </div>
+      <div class="copyright">
+        <p>Copyright 2019 | Unplugged</p>
       </div>
     </footer>
-    <div class="copyright">
-      <p>Copyright 2019 | Unplugged</p>
-    </div>
 
     <script src="../js/vendor/modernizr-3.7.1.min.js"></script>
     <script
