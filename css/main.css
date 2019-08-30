@@ -100,10 +100,16 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* .content-wrapper {
+body {
+  font-size: 16px;
+}
+.content-wrapper {
   width: 90%;
   margin: 50px 0;
-} */
+}
+.header-divider {
+  width: 100%;
+}
 
 /* -------------------- Base Header - Footer Styles ------------------ */
 
@@ -134,6 +140,12 @@ header nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 44%;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
 }
 
 footer {
@@ -194,12 +206,30 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
+.features article {
+  width: 55%;
+}
 
 .reviews {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.reviews h2 {
+  line-height: 1em;
+  font-size: 1.875em;
+  /* color: #e2e3ed; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  width: 80%;
+}
+.reviews h3 {
+  width: 47%;
+  font-size: 1.125em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 .missions {
