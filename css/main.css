@@ -100,12 +100,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.content-wrapper {
+/* .content-wrapper {
   width: 90%;
   margin: 50px 0;
-}
+} */
 
-/************* Base Header & Footer *************/
+/* -------------------- Base Header - Footer Styles ------------------ */
 
 header,
 footer {
@@ -115,27 +115,16 @@ footer {
   flex-flow: row wrap;
 }
 
-header {
-  padding: 15px 0;
-}
-
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  margin: 0;
-}
-
-.header-div ider {
-  width: 100%;
-  height: 1px;
-  margin: 10px 0 20px 0;
 }
 
 header nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
@@ -143,83 +132,48 @@ header nav {
 
 header nav ul {
   display: flex;
-  justify-content: space-around;
-  width: 100%;
-  list-style-type: none;
-  text-transform: uppercase;
-}
-
-li a {
-  text-decoration: none;
-  display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  color: #e2e3ed;
-  font-size: 1em;
-  font-family: "Open Sans";
-  font-weight: 700;
 }
 
 footer {
-  flex-direction: column;
-}
-
-footer p {
-  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
+}
+footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+footer .social-icons {
   display: flex;
   justify-content: center;
   align-items: center;
   /* flex-flow: row wrap; */
-  flex-direction: row;
 }
 
-.contact {
-  margin-bottom: 50px;
+/* -------------------- Base Header - Footer Styles ------------------ */
+main {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-}
-
-.social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.social-icons {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-footer .copyright {
-  margin: 20px 0;
-}
-/* 
-footer.copyright {
-  margin: 20px 0;
-  display: flex;
-  justify-content: center;
-} */
-
-/* -------------------- Mobile Styles - Homepage -------------------- */
-
-/* Hero Area */
-.hero-area {
-  display: flex;
-  justify-content: center;
   flex-flow: row wrap;
 }
 
-/* Aside */
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 aside {
   display: flex;
@@ -227,22 +181,11 @@ aside {
   align-items: center;
   flex-flow: row wrap;
 }
-
-/* Features */
-
 .features {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
-}
-
-.features h2 {
-  margin-bottom: 60px;
-}
-
-.features article {
-  width: 55%;
-  margin: 30px 0;
 }
 
 .features .features-items {
@@ -252,53 +195,16 @@ aside {
   flex-flow: row wrap;
 }
 
-.features p {
-  margin: 0;
-}
-
-/* Reviews */
-
 .reviews {
   display: flex;
   justify-content: center;
-  flex-flow: row wrap;
-}
-
-.reviews h2 {
-  margin-bottom: 40px;
-}
-
-.reviews h3 {
-  width: 55%;
-  margin: 20px 0;
-}
-
-/* ==========================================================================
-   FAQ Page
-   ========================================================================== */
-.faq .faq-wrapper {
-  display: flex;
-  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-/* ==========================================================================
-   About Page
-   ========================================================================== */
-.map-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.missions {
   flex-flow: row wrap;
 }
-figure,
-iframe {
-  size: 100%;
-}
-
-/************* Copyright 
-*********************************/
 
 /* ==========================================================================
    Helper classes
@@ -389,16 +295,9 @@ iframe {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 48em) {
-  /* Style adjustments for viewports that meet the condition */
-  /*Tablet styles here - 768px */
-  .content-wrapper {
-    width: 84%;
-    margin: 50px 0;
-  }
+@media only screen and (min-width: ) {
 }
-
-@media screen and (min-width: 75em) {
+@media screen and (min-width: ) {
   /*Desktop styles here 1200px*/
 }
 
