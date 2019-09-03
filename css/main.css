@@ -13,9 +13,9 @@
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 16px;
   line-height: 1.4;
-  min-width: 300px;
+  min-width: 360px;
   box-sizing: border-box;
 }
 
@@ -107,7 +107,8 @@ body {
 
 .content-wrapper {
   width: 90%;
-  margin: 50px 0;
+  margin: 0;
+  padding: 15px 0;
 }
 
 .header-divider {
@@ -122,6 +123,12 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  border: 5px solid rosybrown;
+}
+
+header {
+  padding: 15px 0;
+  margin: 0;
 }
 
 header .content-wrapper {
@@ -129,6 +136,8 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  border: 5px solid grey;
+  margin: 0;
 }
 
 header nav {
@@ -137,6 +146,7 @@ header nav {
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+  border: 5px solid purple;
 }
 
 header nav ul {
@@ -149,6 +159,8 @@ header nav ul {
 
 li a {
   text-decoration: none;
+  font-size: 1.125em;
+  text-transform: uppercase;
 }
 
 footer {
@@ -156,12 +168,15 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  border: 5px solid pink;
 }
 
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
+  border: 5px solid burlywood;
 }
+
 footer .social {
   display: flex;
   justify-content: center;
@@ -175,6 +190,10 @@ footer .social-icons {
   /* flex-flow: row wrap; */
 }
 
+footer,
+p {
+  margin: 0;
+}
 /* -------------------- Base Header - Footer Styles ------------------ */
 main {
   display: flex;
@@ -188,6 +207,12 @@ main {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  border: 5px solid blue;
+}
+
+h1 {
+  font-size: 2.25em;
+  font-weight: 500;
 }
 
 aside {
@@ -195,12 +220,23 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  border: 5px solid red;
 }
 .features {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  border: 5px solid orange;
+}
+.features h2 {
+  line-height: 1em;
+  font-size: 1.875em;
+  /* color: #e2e3ed; */
+  font-weight: 500;
+  width: 88%;
+  padding: 15px 0;
+  margin: 0;
 }
 
 .features .features-items {
@@ -208,9 +244,15 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  border: 5px solid olivedrab;
 }
 .features article {
   width: 55%;
+  border: 5px solid greenyellow;
+}
+
+.features p {
+  margin: 0;
 }
 
 .reviews {
@@ -218,6 +260,9 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  /* width: 88%; */
+  margin: 0;
+  border: 5px solid purple;
 }
 
 .reviews h2 {
@@ -225,12 +270,17 @@ aside {
   font-size: 1.875em;
   /* color: #e2e3ed; */
   font-weight: 500;
-  width: 80%;
+  width: 88%;
+  margin: 0;
 }
 .reviews h3 {
   width: 47%;
   font-size: 1.125em;
   font-weight: 500;
+}
+
+.reviews p {
+  /* margin: 0; */
 }
 
 .missions {
