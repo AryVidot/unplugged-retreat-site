@@ -100,6 +100,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* --------------------  General Styles ------------------ */
+
 body {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
@@ -209,10 +211,12 @@ main {
   flex-flow: row wrap;
   border: 5px solid blue;
 }
-
-h1 {
+.hero-area h1 {
+  width: 88%;
   font-size: 2.25em;
   font-weight: 500;
+  padding: 15px 0;
+  margin: 0;
 }
 
 aside {
@@ -376,10 +380,167 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: ) {
+@media only screen and (min-width: 768px ) {
+    /*Tabet styles here 768px*/
+   /* General styles */
+    .content-wrapper {
+        max-width: 640px;
+        margin: 100px 0;
+    }
+ 
+    /* Header */
+ 
+    header {
+ 
+    }
+ 
+    header .content-wrapper {
+        width: 
+    }
+ 
+    header nav {
+        width: 
+    }
+ 
+    header nav ul {
+ 
+    }
+ 
+    .header-divider {
+        display: none;
+    }
+ 
+    /* Hero Area */
+ 
+    /* Aside */
+    aside .content-wrapper {
+        margin: 50px 0;
+    }
+ 
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form {        
+        width:         
+        margin: 0;
+    }
+ 
+    /* Features */
+ 
+    .features article {
+ 
+    }
+ 
+    .features .features-item-description {
+        width: 
+    }
+ 
+    /* Reviews */
+    .reviews article {
+ 
+    }
+    
+    .reviews article div {
+        width:         
+    }
+ 
+    /* Footer */
+    footer .content-wrapper {
+        width: 
+        margin: 100px 0;
+    }
+    
+    .footer-content {
+ 
+    }
+ 
+    footer .contact {
+        margin-bottom: 0;
+    }
+ 
+    footer .copyright {
+        width:
+    }
 }
-@media screen and (min-width: ) {
+}
+@media screen and (min-width: 1200px) {
   /*Desktop styles here 1200px*/
+     /* General styles */
+     .content-wrapper {
+      max-width: 715px;
+      margin: 50px 0;
+  }
+
+  /* Header */
+
+  header {
+
+  }
+
+  header .content-wrapper {
+      width:
+  }
+
+  header nav {
+      width: 
+  }
+
+  header nav ul {
+
+  }
+
+  .header-divider {
+      display: none;
+  }
+
+  /* Hero Area */
+
+  /* Aside */
+  aside .content-wrapper {
+      margin: 50px 0;
+  }
+
+  aside .content-wrapper .form-description,
+  aside .content-wrapper .form {        
+      width:         
+      margin: 0;
+  }
+
+  /* Features */
+
+  .features article {
+
+  }
+
+  .features .features-item-description {
+      width: 
+  }
+
+  /* Reviews */
+  .reviews article {
+
+  }
+  
+  .reviews article div {
+      width:         
+  }
+
+  /* Footer */
+  footer .content-wrapper {
+      width: 
+      margin: 100px 0;
+  }
+  
+  .footer-content {
+
+  }
+
+  footer .contact {
+      margin-bottom: 0;
+  }
+
+  footer .copyright {
+      width:
+  }
+}
 }
 
 @media print,
