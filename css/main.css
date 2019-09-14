@@ -149,6 +149,7 @@ header nav {
   flex-flow: row wrap;
   width: 60%;
   border: 5px solid purple;
+  margin: 0;
 }
 
 header nav ul {
@@ -162,6 +163,7 @@ header nav ul {
 li a {
   text-decoration: none;
   font-size: 1.125em;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -177,6 +179,11 @@ footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
   border: 5px solid burlywood;
+}
+
+.contact h4 p{
+  justify-content: center;
+
 }
 
 footer .social {
@@ -226,6 +233,9 @@ aside {
   flex-flow: row wrap;
   border: 5px solid red;
 }
+
+
+
 .features {
   display: flex;
   justify-content: center;
@@ -380,7 +390,7 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 768px ) {
+media only screen and (min-width: 768px ) {
     /*Tabet styles here 768px*/
    /* General styles */
     .content-wrapper {
@@ -461,7 +471,7 @@ aside {
     }
 }
 }
-@media screen and (min-width: 1200px) {
+media screen and (min-width: 1200px) {
   /*Desktop styles here 1200px*/
      /* General styles */
      .content-wrapper {
