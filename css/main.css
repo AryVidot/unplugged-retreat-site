@@ -13,7 +13,6 @@
 
 html {
   color: #222;
-  font-size: 1em;
   line-height: 1.4;
   min-width: 360px;
   box-sizing: border-box;
@@ -103,8 +102,9 @@ textarea {
 /* --------------------  General Styles ------------------ */
 
 body {
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
 .content-wrapper {
@@ -183,38 +183,46 @@ footer {
 
 footer p {
   margin: 0;
-}
+  padding: 10px;
 
-address{
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 footer .content-wrapper {
   width: 55%;
-  margin: 50px 0;
+  margin: 20px 0;
   border: 5px solid burlywood;
 
 }
 
 footer .contact{
-  justify-content: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 88%;
-  margin-bottom: 50px;
+  width: 100%;
+  /* margin-bottom: 50px; */
 }
-/* 
+
+address h4 p a{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+footer h4{
+  width: 100%;
+  margin: 0;
+  padding: 20px 0;
+}
+
 footer .social {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 88%;
-} */
+
+} 
 
 footer .social-icons{
   display: flex;
@@ -222,16 +230,31 @@ footer .social-icons{
   align-items: center;
 }
 
+footer .social, .contact, h4{
+  display: flex;
+  justify-content: center;
+}
+
+footer .social-icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 20px 0;
+}
+
 footer .social-icons p{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
-  flex-flow: row wrap;
 }
 
 footer .copyright{
-  margin: 20px 0;
+  margin: 0;
+  width: 55%;
+  /* justify-items: center; */
+  align-items: center;
+  border: solid 1px red;
 }
 
 /* -------------------- Base Header - Footer Styles ------------------ */
@@ -343,7 +366,9 @@ aside {
    About Page
    =================== */
 
-.missions {
+.mission {
+  width: 95%;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -351,6 +376,7 @@ aside {
 }
 
 .contact-section{
+  width: 95%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -358,7 +384,7 @@ aside {
 }
 
 .contact-content p{
-  margin: 0;
+  margin: 20px 0;
 }
 
 /* ===================
@@ -379,7 +405,6 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-
 }
 
 .faq h2{
@@ -479,7 +504,7 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-media only screen and (min-width: 768px ) {
+@media only screen and (min-width: 768px ) {
     /*Tabet styles here 768px*/
    /* General styles */
     .content-wrapper {
@@ -490,15 +515,17 @@ media only screen and (min-width: 768px ) {
     /* Header */
  
     header {
- 
+      display: flex;
+      justify-content: center;
+      align-content: center;
     }
  
     header .content-wrapper {
-        width: 
+        width: 85%;
     }
  
     header nav {
-        width: 
+        width: 157px:
     }
  
     header nav ul {
@@ -525,7 +552,8 @@ media only screen and (min-width: 768px ) {
     /* Features */
  
     .features article {
- 
+
+      width: 320px;
     }
  
     .features .features-item-description {
@@ -560,7 +588,7 @@ media only screen and (min-width: 768px ) {
     }
 }
 }
-media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   /*Desktop styles here 1200px*/
      /* General styles */
      .content-wrapper {
